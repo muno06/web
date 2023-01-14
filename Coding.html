@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <mata charset="utf-8">
+        <title>골뱅이의 작업장</title>
+        <style>
+            body{
+                margin: 0px;
+            }
+            #now{
+                color: gray;
+            }
+            .S{
+                font-size: 30px;
+            }
+            a{
+                color:black;
+                text-decoration: none;
+            }
+            h1{
+                font-size: 80px;
+                text-align: center;
+                border-bottom: 4px black solid;
+                padding: 20p;
+                margin: 0px;
+            }
+            h2{
+                font-size: 50px;
+            }
+            ul{
+                border-right:4px solid black;
+                padding: 20px;
+                margin: 0px;
+                width: 200px;
+                padding-left: 40px;
+            }
+            #g{
+                display: grid;
+                grid-template-columns: 280px 1fr;
+            }
+        </style>
+    </head>
+    <body>
+        <h1><strong><a href="index.html">HOME</a></strong></h1>
+        <div id="g">
+            <ul>
+                <li><a href="Diary.html" class="S"><strong>Diary</strong></a></li>
+                <li><a href="Coding.html" class="S" id="now"><strong>Coding</strong></a></li>
+            </ul>
+            <div>
+                <h2><a href="Coding.html"><strong>Coding</strong></a></h2>
+                <p><strong>잡다한 코딩 입니다.</strong></p>
+            </div>
+        </div>
+    </body>
+</html>
